@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Protest+Revolution&family=Protest+Strike&family=Roboto:ital,wght@0,300;0,500;1,400&family=Rubik+Burned&display=swap');
+/* Incorporação dos elementos*/
+*{box-sizing: border-box;
+}
+body{margin: 0;
+}
+/* Elementos da barra de navegação */
+.navbar{
+    position: fixed;
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    background:white;
+    justify-content: left;
+    align-items: left;
+    width: 100%;
+    padding-top: 20px;
+}
+.logo{
+    flex: 15%;
+    margin-left: 10%;
+    /* border: 1px solid black; */
+    text-align: left;
+}
+.logo h1{
+    font-family: 'Roboto', sans-serif;
+    color: rgba(185,33,42,255);
+    font-size: 30px;
+}
+.menu{
+    flex: 50%;
+    text-align: right;
+    padding:20px;
+    /* border: 1px solid black; */
+    margin-right: 8%;
+}
+.menu a{
+    color: rgba(43, 39, 39, 0.877);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 1% 2%;
+}
+/* Quando mouse passar por cima dos elementos do menu */
+.menu a:hover{
+    border-top:4px solid rgba(185,33,42,255); 
+    color: rgba(185,33,42,255);
+}
+/* Elementos do header */
+.header{
+    height: 600px;
+    background:rgba(185,33,42,255);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+.headline {
+    flex: 40%;
+    margin-left: 10%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.img-header{
+    margin-right: 8%;
+    flex: 40%;
+    text-align: center;
+}
+/* Parte do Section */
+.serviços{
+    display: inline-block;
+    margin-top: 5%;
+}
+.section{
+    display: inline-block;
+    margin-top: 80px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5px;
+    width: 90%;
+    text-align: center;
+}
+.section h2{
+    width: 100%;
+    font-size: 40px;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color:rgba(185,33,42,255) ;
+}
+.card{
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: 1px solid rgba(185,33,42,255);
+    border-radius: 10px;
+    cursor: pointer;
+    background: rgba(252,196,119,255);
+}
+.card img{
+    padding:10px;
+}
+.texto-oculto{
+    display: none;
+}
+/* Parte Hover do Section */
+.card:hover{
+    background: rgba(185,33,42,255);
+    color: white;
+    padding: 40px;
+    /* Quando mouse passar por cima dos cartões de informações */
+}
+.card:hover img{
+    display: none;
+    /* Imagem some */
+}
+.card:hover .card-text{
+    display: none;
+    /* Texto principal some */
+}
+.card:hover .texto-oculto{
+    display: block; 
+    /* Texto secundário some */
+}
+
+/* Parte do footer(rodapé) */
+.footer{
+    margin-top: 100px;
+    height: 400px;
+    background-image: linear-gradient(#b52230,rgba(185,33,42,255), rgb(100, 0, 0));
+    text-align: center;
+    padding: 200px;
+    border-top: 5px solid rgba(252,196,119,255);
+}
+.consorcio{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
