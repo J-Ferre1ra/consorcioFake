@@ -138,3 +138,52 @@ body{margin: 0;
     font-family: 'Roboto', sans-serif;
     color: white;
 }
+/* Botão de Whatsapp */
+.whatsapp{
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
+
+/* Media Queries */
+@media screen and (max-width:1000px){
+    .menu{display: none;}
+    .navbar{position: relative;}
+    .logo{margin: 0; text-align: center;}
+    .header{padding-top: 0;
+    height: 500px;}
+    .headline{flex: 100%;
+    margin: 5%;
+    text-align: center;
+    padding: 10%;
+}
+    .headline h1{
+        font-size: 30px;
+
+    }
+    .headline p{
+        text-align: center;
+        font-size: 20px;
+    }
+    .img-header{
+        flex: 100%;
+        margin:0%;
+        text-align: center;
+    }
+    .section{padding-top: 150px;}
+    .whatsapp{display: none;}
+    .card{width: 100%;}
+    .img-header{height: 100px;
+    }
+    .section h2{
+        display:inline-block;
+        background: #b52230;
+        padding:15px;
+        border-radius:5px;
+        color:rgba(252,196,119,255);
+     }
+     .card-text{
+        font-size: 20px;
+     }
+    
+}
