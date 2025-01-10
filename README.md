@@ -28,3 +28,7 @@ O objetivo dele é representar uma página de consorcio com pequenas informaçõ
 
 ## **📄 Próximos Passos**
 -Implementar uma página para o usuário logar
+
+---
+## ** Acesse o projeto em tempo real **
+https://consorciofake.netlify.app/
